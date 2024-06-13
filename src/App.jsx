@@ -1,7 +1,11 @@
+import MoviesContainer from "./components/MoviesContainer/MoviesContainer"
+import Navbar from "./components/Navbar/Navbar"
+
 function App() {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Hello  React</h1>
+    <div className="">
+      <Navbar/>
+      <MoviesContainer/>
     </div>
   )
 }
